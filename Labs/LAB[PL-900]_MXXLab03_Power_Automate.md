@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ 03: Power Automate'
     module: 'モジュール XX: Power Apps のビルド'
