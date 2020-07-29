@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ: Power Automate'
     module: 'モジュール 4: Power Automate の開始'
