@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ: データ モデリング'
     module: 'モジュール 2: Common Data Service の概要'
