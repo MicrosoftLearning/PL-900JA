@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ: Power BI'
     module: 'モジュール 5: Power BI の開始'
