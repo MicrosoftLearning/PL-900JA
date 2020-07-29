@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ: モデル駆動型アプリ'
     module: 'モジュール 3: Power Apps の開始'
