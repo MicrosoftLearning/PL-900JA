@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ 5: モデル駆動型アプリ'
     module: 'モジュール XX: Power Apps のビルド'
