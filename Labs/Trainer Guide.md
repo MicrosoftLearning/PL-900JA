@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '講師用ガイド'
     module: 'モジュール XX: Power Apps のビルド'
