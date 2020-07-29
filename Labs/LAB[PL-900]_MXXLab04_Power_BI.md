@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ 04: Power BI'
     module: 'モジュール XX:  Power Apps のビルド'
