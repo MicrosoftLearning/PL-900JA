@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ 01: データ モデリング'
     module: 'モジュール XX: Power Apps のビルド'
