@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'ラボ 02: キャンバス アプリ、パート1'
     module: 'モジュール XX: Power Apps のビルド'
