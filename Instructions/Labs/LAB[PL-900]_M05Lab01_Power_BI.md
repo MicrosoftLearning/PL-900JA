@@ -54,9 +54,9 @@ lab:
 1.  Power BI Desktop がインストールされていない場合は、[https://aka.ms/pbidesktopstore](https://aka.ms/pbidesktopstore) に移動して、Power BI アプリをダウンロードおよびインストールします。
 
 > 「!重要」
-> Microsoft Store を使用して Power BI Desktop のインストールに問題が発生した場合は、[https://aka.ms/pbiSingleInstaller](https://aka.ms/pbiSingleInstaller) からダウンロードできるスタンドアロン インストーラを試してください 。
+> Microsoft Store を使用して Power BI Desktop のインストールに問題が発生した場合は、[https://aka.ms/pbiSingleInstaller-jpn](https://aka.ms/pbiSingleInstaller-jpn) からダウンロードできるスタンドアロン インストーラを試してください 。
 
-2. **Power BI Desktop が正常にインストールされた場合は、 「タスク \#2」(#task-2-prepare-data)に進んでください**。デスクトップ アプリケーションをインストールするためのアクセス許可が不足している場合や、Power BI Desktop の実行または構成に問題がある場合は、以下のタスク手順を完了してから 「タスク \#3」(#task-3-create-chart-and-time-visualizations)を続行しますが、Power BI Desktop の代わりに課題全体で [https://app.powerbi.com](https://app.powerbi.com) のオンライン Power BI サービスを使用します。 
+2. **Power BI Desktop が正常にインストールされた場合は、 [タスク \#2](#task-2-prepare-data)に進んでください**。デスクトップ アプリケーションをインストールするためのアクセス許可が不足している場合や、Power BI Desktop の実行または構成に問題がある場合は、以下のタスク手順を完了してから [タスク \#3](#task-3-create-chart-and-time-visualizations)を続行しますが、Power BI Desktop の代わりに課題全体で [https://app.powerbi.com](https://app.powerbi.com) のオンライン Power BI サービスを使用します。 
 
 3. [visits.pbix](../../Allfiles/visits.pbix) をダウンロードして、コンピューターに保存します。
 
@@ -76,7 +76,7 @@ lab:
 
 10. **「編集 (Edit)**」 をクリックします。**「編集」** メニュー項目が表示されていない場合は、「**...**」 をクリックし、**「編集」** を選択します。 
 
-11. 「タスク \#3」(#task-3-create-chart-and-time-visualizations)に進みます。
+11. [タスク \#3](#task-3-create-chart-and-time-visualizations)に進みます。
 
 タスク \#2: データの準備
 ---------------------------
