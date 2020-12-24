@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '課題 6: 自動化ソリューションの構築方法'
     module: 'モジュール 4: Power Automate の開始'
