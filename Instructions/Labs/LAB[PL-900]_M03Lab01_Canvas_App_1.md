@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '課題 2: キャンバス アプリの構築方法、パート 1'
     module: 'モジュール 3: Power Apps の使用を開始'
@@ -7,6 +7,13 @@ lab:
 # モジュール 3: Power Apps の使用を開始
 
 ## 課題: キャンバス アプリの構築方法、パート 1
+
+### 重要な注意事項 (有効日: 2020 年 11 月):
+Common Data Service は、Microsoft Dataverse に名称が変更されました。Microsoft Dataverse では、用語が一部変更されています。たとえば、「エンティティ」は「テーブル」に変更されました。また Dataverse のデータベースでは、「フィールド」は「列」、「レコード」は「行」と呼ばれます。
+
+アプリケーションは現在ユーザー エクスペリエンスを更新中ですが、「エンティティ」 (現在は **テーブル**) や「フィールド」 (現在は **列**)、「レコード」 (現在は **行**) など Microsoft Dataverse の用語を指す一部の用語が古い用語のまま使用されている可能性があります。ラボに取り組む際は、この点に注意してください。出来る限り早急に、コンテンツを完全に最新版に更新することを予定しています。 
+
+詳細および影響のある用語の一覧は、「[Dataverse とは？](https://docs.microsoft.com/ja-jp/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)」にアクセスしてご確認ください。
 
 # シナリオ
 
