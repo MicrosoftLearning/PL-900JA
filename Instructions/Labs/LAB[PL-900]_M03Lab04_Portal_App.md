@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '課題 5: Power Apps ポータルを作成する方法'
     module: 'モジュール 3: Power Apps の使用を開始'
