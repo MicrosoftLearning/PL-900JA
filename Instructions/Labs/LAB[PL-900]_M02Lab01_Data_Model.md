@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '課題 1: データ モデリング'
     module: 'モジュール 2: Microsoft Dataverse の概要'
