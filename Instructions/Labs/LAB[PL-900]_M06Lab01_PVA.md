@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '課題 8: 基本的なチャットボットの構築方法'
     module: 'モジュール 6: Power Virtual Agents の紹介'
