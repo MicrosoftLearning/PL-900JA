@@ -135,7 +135,7 @@ lab:
 
 4.  あいさつのトピックには 52 個のトリガー フレーズがあり、「**作成キャンバスに移動**」 をクリックします。
 
-5.  最初のメッセージに移動し、`こんにちは、私は仮想オペレーターです。COVID-19 の広がり方、身を守る方法、COVID-19 に備えて家や家族で準備する方法、症状、検査などについてお話しします。` に置き換えます。
+5.  最初のメッセージに移動し、`Hi, I’m a virtual agent. I can tell you about how COVID-19 spreads, how to protect yourself, preparing your home and family for COVID-19, symptoms, testing, and more.` に置き換えます。
 
 6.  「**保存**」 をクリックします。
 
@@ -159,13 +159,13 @@ lab:
 
 5.  ボットを公開できるチャネルのリストが表示されます。「**デモ Web サイト**」 を選択します。
 
-6.  ウェルカム メッセージを`COVID-19 FAQ ボットを試す` に変更します。
+6.  ウェルカム メッセージを`Try my COVID-19 FAQ bot.` に変更します。
 
 7.  「**会話の開始点**」 に次のように入力します。
     ```
-     「COVID-19 による深刻な病気のリスクが高いのは誰ですか」
-     「重症疾患とはどのようなものですか」
-     「CDC による COVID-19 の対策は何ですか」
+     “Who is at higher risk for serious illness from COVID-19”
+     “What does more severe illness mean”
+     “What is the CDC doing about COVID-19”
     ```
     
 8.  **「保存」** をクリックします。
