@@ -10,7 +10,7 @@ lab:
 ### 重要なお知らせ (2020 年 11 月より適用):
 Common Data Service は、Microsoft Dataverse に名称が変更されました。Microsoft Dataverse の用語が一部更新されました。たとえば、エンティティ (現在は **テーブル**)、フィールド (現在は **列**)、 レコード (現在は **行**) が古くなっていることがあります。このことを念頭に置いて、ラボに取り組んでください。近いうちにコンテンツを最新の状態に更新する予定です。
 
-詳細および対象となる用語の一覧については、[Microsoft Dataverse とは?](https://docs.microsoft.com/ja-jp/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)」をご覧ください。
+詳細および対象となる用語の一覧については、[Microsoft Dataverse とは?](https://docs.microsoft.com/ja-jp/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)をご覧ください。
 
 # シナリオ
 
@@ -246,7 +246,7 @@ Common Data Service は、Microsoft Dataverse に名称が変更されました�
     
     * 「**リレーションシップの追加**」をクリックし、「**多対一**」 を選択します。
     
-    * 「**関連 (1 つ) **」の「**連絡先**」を選択します 
+    * 「**関連 (1 つ)**」の「**連絡先**」を選択します 
     
     * 「**ルックアップ列の表示名**」に「**訪問者**」と入力します 
     
@@ -310,7 +310,7 @@ Common Data Service は、Microsoft Dataverse に名称が変更されました�
 
 2. 「**インポートデータ**」フローの**状態**を確認します。
 
-3. 「**状態**」が「**オフ**」の場合は、「**データのインポート**」の横にある **[...]** を選択し、「**オン**」を選択します。
+3. 「**状態**」が「**オフ**」の場合は、「**データのインポート**」の横にある **「...」** を選択し、「**オン**」を選択します。
 
    > **重要:** エラー メッセージが表示された場合は、作成したテーブルと列が上記の手順と一致していることを確認します。
 

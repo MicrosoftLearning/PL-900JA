@@ -11,7 +11,7 @@ lab:
 ### 重要なお知らせ (2020 年 11 月より適用):
 Common Data Service は、Microsoft Dataverse に名称が変更されました。Microsoft Dataverse の用語が一部更新されました。たとえば、エンティティ (現在は **テーブル**)、フィールド (現在は **列**)、 レコード (現在は **行**) が古くなっていることがあります。このことを念頭に置いて、ラボに取り組んでください。近いうちにコンテンツを最新の状態に更新する予定です。
 
-詳細および対象となる用語の一覧については、[Microsoft Dataverse とは?](https://docs.microsoft.com/ja-jp/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)」をご覧ください。
+詳細および対象となる用語の一覧については、[Microsoft Dataverse とは?](https://docs.microsoft.com/ja-jp/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)をご覧ください。
 
 # シナリオ
 
@@ -73,7 +73,7 @@ Common Data Service は、Microsoft Dataverse に名称が変更されました�
 
 7.  アプリケーションを保存します
 
-    -   **「ファイル」\>「保存」**をクリックします。
+    -   **「ファイル」\>「保存」** をクリックします。
 
     -   アプリ名として、「**[姓] キャンパス スタッフ**」と入力します。
 
@@ -174,7 +174,7 @@ Common Data Service は、Microsoft Dataverse に名称が変更されました�
 
 5.  アプリ プレビューで、ギャラリーの最初の「日時」フィールドを選択します。
 
-6.  上部の数式バーで、`**ThisItem.'Created On'**`を`ThisItem.'Scheduled Start'`に変更します
+6.  上部の数式バーで、**ThisItem.'Created On'** を `ThisItem.'Scheduled Start'` に変更します
 
 7.  フィールドをもう一度選択します。
 
@@ -182,7 +182,7 @@ Common Data Service は、Microsoft Dataverse に名称が変更されました�
 
 9.  マウスまたはキーボードを使用して、コピーしたコントロールを下に移動し、ギャラリー内の他の「日時」フィールドの下にある他のコントロールと位置を合わせます。
 
-10.  上部の数式バーで、`**ThisItem.'Scheduled Start'**`を`ThisItem.'Scheduled End'`に変更します。
+10.  上部の数式バーで、**ThisItem.'Scheduled Start'** を `ThisItem.'Scheduled End'` に変更します。
 
 11.  進行中の作業を保存するには、「**ファイル**」をクリックし、次に「**保存**」をクリックします戻る矢印を使用して、アプリに戻ります。
 

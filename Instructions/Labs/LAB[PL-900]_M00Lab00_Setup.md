@@ -12,7 +12,7 @@ lab:
 ### 重要なお知らせ (2020 年 11 月より適用):
 Common Data Service は、Microsoft Dataverse に名称が変更されました。Microsoft Dataverse の用語が一部更新されました。たとえば、エンティティ (現在は **テーブル**)、フィールド (現在は **列**)、 レコード (現在は **行**) が古くなっていることがあります。このことを念頭に置いて、ラボに取り組んでください。近いうちにコンテンツを最新の状態に更新する予定です。 
 
-詳細および対象となる用語の一覧については、[Microsoft Dataverse とは?](https://docs.microsoft.com/ja-jp/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)」をご覧ください。
+詳細および対象となる用語の一覧については、[Microsoft Dataverse とは?](https://docs.microsoft.com/ja-jp/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)をご覧ください。
 
 シナリオ
 --------
@@ -77,7 +77,7 @@ Common Data Service は、Microsoft Dataverse に名称が変更されました�
 
 4.  新しいポータルの詳細を入力します
 
-    -   ポータル**名**として「**Bellows College Visitors**」と入力してください
+    -   ポータル**名**として「**```Bellows College Visitors```**」と入力してください
 
     -   一意の URL を指定します。**something**.powerappsportals.com (この名前が使われている場合は、別の名前を選択してください)
 

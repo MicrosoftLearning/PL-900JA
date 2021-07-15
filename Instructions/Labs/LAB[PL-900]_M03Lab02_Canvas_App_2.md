@@ -10,7 +10,7 @@ lab:
 ### 重要なお知らせ (2020 年 11 月より適用):
 Common Data Service は、Microsoft Dataverse に名称が変更されました。Microsoft Dataverse の用語が一部更新されました。たとえば、エンティティ (現在は **テーブル**)、フィールド (現在は **列**)、 レコード (現在は **行**) が古くなっていることがあります。このことを念頭に置いて、ラボに取り組んでください。近いうちにコンテンツを最新の状態に更新する予定です。
 
-詳細および対象となる用語の一覧については、[Microsoft Dataverse とは?](https://docs.microsoft.com/ja-jp/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)」をご覧ください。
+詳細および対象となる用語の一覧については、[Microsoft Dataverse とは?](https://docs.microsoft.com/ja-jp/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)をご覧ください。
 
 # シナリオ
 
@@ -107,7 +107,7 @@ Common Data Service は、Microsoft Dataverse に名称が変更されました�
     
     -   「**HintText**」プロパティを選択し、値に`"Enter visitor code"`と入力します (二重引用符を含む)
     
-    -   ツリー ビュー (TextInput1) のコントロール名の横にある **[...]** をクリックし、「**名前の変更**」を選択し、名前を「textCode」に変更します。
+    -   ツリー ビュー (TextInput1) のコントロール名の横にある **「...」** をクリックし、「**名前の変更**」を選択し、名前を `textCode` に変更します。
     
 3.  フォーム ビューを追加します
 
@@ -133,7 +133,7 @@ Common Data Service は、Microsoft Dataverse に名称が変更されました�
    
     -   **X** をクリックして、フィールド ウィンドウを閉じる
    
-5.  フォーム ビューを選択したまま、「プロパティ」ペインの「詳細」タブを選択します。「**Item**」プロパティを選択し、「LookUp(Visits, Code = textCode.Text)」と入力します 
+5.  フォーム ビューを選択したまま、「プロパティ」ペインの「詳細」タブを選択します。「**Item**」プロパティを選択し、`LookUp(Visits, Code = textCode.Text)` と入力します 
 
 6.  進行中の作業を保存するには、「**ファイル**」をクリックし、次に「**保存**」をクリックします戻る矢印を使用して、アプリに戻ります。
 
@@ -183,17 +183,17 @@ Common Data Service は、Microsoft Dataverse に名称が変更されました�
    
    * 「**ボタン**」をクリックします
    
-   * プロパティ ペインで、ボタンの「**テキスト**」プロパティを"`Check In`"に変更します (既存の引用符内で入力できます)。
+   * プロパティ ペインで、ボタンの「**テキスト**」プロパティを「`Check In`」に変更します (既存の引用符内で入力できます)。
    
-   * ツリー ビュー (ボタン 1) のボタン名の横にある **[...]** をクリックし、「**名前の変更**」を選択し、名前を`CheckInButton`に変更します
+   * ツリー ビュー (ボタン 1) のボタン名の横にある **「...」** をクリックし、「**名前の変更**」を選択し、名前を `CheckInButton` に変更します
 
 3. チェックアウト ボタンを追加します   
 
    * 「挿入」タブの「**ボタン**」をクリックして、別のボタンを挿入します
    
-   * プロパティ ペインで、ボタンの「**テキスト**」プロパティを"`Check Out`"に変更します (既存の引用符内で入力できます)。
+   * プロパティ ペインで、ボタンの「**テキスト**」プロパティを「`Check Out`」に変更します (既存の引用符内で入力できます)。
    
-   * ボタンの名前を`CheckOutButton`に変更する
+   * ボタンの名前を `CheckOutButton` に変更する
    
    * ボタンを検索ボックスの下に配置し、「**チェックイン**」を「**チェックアウト**」の上に配置します。 
    
@@ -219,8 +219,8 @@ Common Data Service は、Microsoft Dataverse に名称が変更されました�
    * **!IsBlank(Visit)** - 訪問記録が見つかりました
    * **&&** - 論理 AND 演算子
    * **Visit.Status = 'Status (Visits)'.Active** レコードのステータスが*アクティブ*です
-   * **IsBlank(Visit.'Actual Start')** -  アクティブな開始フィールドにはデータがありません
-   * **DisplayMode.Edit, DisplayMode.Disabled** -  上記の条件が満たされると、ボタンは編集可能になります。そうでない場合、ボタンは無効のままになります。
+   * **IsBlank(Visit.'Actual Start')** - アクティブな開始フィールドにはデータがありません
+   * **DisplayMode.Edit, DisplayMode.Disabled** - 上記の条件が満たされると、ボタンは編集可能になります。そうでない場合、ボタンは無効のままになります。
 
 訪問レコードが見つかった (空白ではない) 場合、レコードの状態がアクティブで、訪問が既に開始されている場合、つまり、実際の開始値が空白でない場合は、「**チェックアウト**」ボタンを有効にします。
 
@@ -271,7 +271,7 @@ Common Data Service は、Microsoft Dataverse に名称が変更されました�
 
    この式には次の項目が含まれます。
 
-   * **Patch(Visits, Visit, {'Actual Start': Now()});**.*Patch* メソッドは **Visits** テーブル、**Visit** 行で識別されるレコード (つまり現在の訪問数) を更新します。この式では、「*Actual Start*」列の値を現在の日時 (*Now()* メソッド) に設定します。
+   * **Patch(Visits, Visit, {'Actual Start': Now()});**. *Patch* メソッドは **Visits** テーブル、**Visit** 行で識別されるレコード (つまり現在の訪問数) を更新します。この式では、「*Actual Start*」列の値を現在の日時 (*Now()* メソッド) に設定します。
    * **Refresh([@Visits]);**. この式により、基準になる値が変更された場合に訪問行を更新します
    * **Set(Visit, LookUp(Visits, Code = textCode.Text));** この式により Dataverse の最新データで *Visit* 変数を更新します。
    
@@ -357,7 +357,7 @@ Common Data Service は、Microsoft Dataverse に名称が変更されました�
 
 1. ブラウザーでキャンパス セキュリティ アプリを開いたままにする必要があります。ない場合、「**キャンパス セキュリティ**」アプリを選択し、「**編集**」をクリックします。
 
-2. 「**ファイル \| 公開」を選択します** 
+2. 「**ファイル \| 公開」** を選択します 
 
 3. この「**このバージョンの公開**」を選択します
 
